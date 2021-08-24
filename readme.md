@@ -18,16 +18,27 @@ AI assistat or AI virtual assistant or digital assistant is a program that under
 This assistant is made through Python. The module *pyttsx3* is used to convert text into speech for communication between user & assistant.
 It has the following characteristics:
     - greets the user according to time period
+
     - helps you to know the current date & time
+
     - google a search for you
+
     - plays a song from the device provided the path of songs is mentioned
+
     - can be used as a reminder
+
     - memorizes the information which the user asks it to remember by writing it to a text file (here, *data.txt*)
+
     - tell you jokes in a boredom
+
     - send the mails on user's behalf
+
     - take a snapshot of the screen
+
     - update you with the device's battery
+
     - surf wikipedia on your behalf
+    
     - log-out, restart and shut down the system 
 
 You need to import the respective modules for the specific function while few modules are built-in already. 
