@@ -22,7 +22,7 @@ It has the following characteristics:
     - google a search for you
     - plays a song from the device provided the path of songs is mentioned
     - can be used as a reminder
-    - memorizes the information which the user asks it to remember by writing it to a text file
+    - memorizes the information which the user asks it to remember by writing it to a text file (here, *data.txt*)
     - tell you jokes in a boredom
     - send the mails on user's behalf
     - take a snapshot of the screen
@@ -47,8 +47,8 @@ Every suggestion or opinion matters.
 
 It would be glad enough if any of you will to contribute to this repository.
 It's open to contribution. 
-Clone this repository with the provivded url 
-or directly clone the repository with the command ().
+Clone this repository with the provivded url https://github.com/vanshika0111/Artificial-Intelligence
+or directly clone the repository with the command (gh repo clone vanshika0111/Artificial-Intelligence).
 
 ---
 ---
