@@ -1,6 +1,7 @@
 # <center> **ARTIFICIAL INTELLIGENCE - ASSISTANT** </center>
 ---
 
+
 ![Alt Text](https://github.com/vanshika0111/Artificial-Intelligence/blob/master/readme%20essentials/images.png)
 
 
@@ -13,7 +14,7 @@ And it's the one of most precious human success to control almost everything wit
 Yes, the virtual assistant has made everyone's lives a little more easier.
 Whether it's to switch on an air conditioner or to clean your desk or make a google search or to send mail or to play the songs.
 It has got everything for you. 
-AI assistat or AI virtual assistant or digital assistant is a program that understands voice commands.
+AI assistat or AI virtual assistant or digital assistant is a program that understands voice command(s).
 
 #### **HOW IT WORKS?**
 ---
