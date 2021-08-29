@@ -16,7 +16,8 @@ Whether it's to switch on an air conditioner or to clean your desk or make a goo
 It has got everything for you. 
 AI assistat or AI virtual assistant or digital assistant is a program that understands voice command(s).
 
-[!Alt Text](https://github.com/vanshika0111/Artificial-Intelligence/blob/master/readme%20essentials/Why-Python-For-AI-Artificial-Intelligence-With-Python-Edureka.png)
+![Alt Text](https://github.com/vanshika0111/Artificial-Intelligence/blob/master/readme%20essentials/Why-Python-For-AI-Artificial-Intelligence-With-Python-Edureka.png)
+
 
 #### **HOW IT WORKS?**
 ---
