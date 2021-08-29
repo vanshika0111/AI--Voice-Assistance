@@ -1,6 +1,9 @@
 # <center> **ARTIFICIAL INTELLIGENCE - ASSISTANT** </center>
 ---
 
+![Alt Text](https://github.com/vanshika0111/Artificial-Intelligence/blob/master/readme%20essentials/images.png)
+
+
 #### **DESCRIPTION**
 ---
 
