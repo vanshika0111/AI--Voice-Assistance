@@ -60,8 +60,11 @@ Every suggestion or opinion matters.
 It would be glad enough if any of you will to contribute to this repository.
 It's open to contribution. 
 Clone this repository with the provivded url https://github.com/vanshika0111/Artificial-Intelligence
-or directly clone the repository with the command (gh repo clone vanshika0111/Artificial-Intelligence).
+or directly clone the repository with the command ():
 
+```bash
+  gh repo clone vanshika0111/Artificial-Intelligence
+```
 ---
 ---
 ## <center> **HAPPY CODING :)** </center>
