@@ -1,3 +1,4 @@
+# ------------------------------ modules -------------------------------
 # importing already made functions from other files
 from intro import intro
 from command import takeCommand
@@ -13,6 +14,7 @@ from ss import *
 from status import *
 from jokessss import *
 
+# ------------------------------ functions -------------------------------
 def screenshot():
     img = pyautogui.screenshot()
     img.save("E:\photooooo\ss.png")
