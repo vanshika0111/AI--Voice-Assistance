@@ -14,7 +14,7 @@ from ss import *
 from status import *
 from jokessss import *
 
-# ------------------------------ functions -------------------------------
+# ------------------------------ function definitions -------------------------------
 def screenshot():
     img = pyautogui.screenshot()
     img.save("E:\photooooo\ss.png")
