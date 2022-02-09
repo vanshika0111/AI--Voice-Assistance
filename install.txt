@@ -1,0 +1,13 @@
+Install the following modules:
+    1. pip install pyttsx3
+    2. pip install SpeechRecognition
+    3. pip install pipwin
+    4. pipwin install pyaudio
+    5. pip install pywin32
+    6. pip install pyjokes
+    7. pip install pyautogui
+    8. pip install wikipedia
+
+Corrections:
+    1. gaane.py: location of playlist
+    2. ss.py: location of ss folder

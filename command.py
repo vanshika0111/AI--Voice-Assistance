@@ -1,5 +1,7 @@
 # to take command from user and respond the same
 
+# pip install pyttsx3
+
 import pyttsx3
 
 # to take command, module SpeechRecognition is used
