@@ -7,7 +7,6 @@ Install the following modules:
     6. pip install pyjokes
     7. pip install pyautogui
     8. pip install wikipedia
+    9. pip show psutil
 
-Corrections:
-    1. gaane.py: location of playlist
-    2. ss.py: location of ss folder
+

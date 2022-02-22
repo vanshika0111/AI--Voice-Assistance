@@ -42,7 +42,7 @@ def takeCommand():
             return "None"
         return query
 
-takeCommand()
+# takeCommand()
 
 # if __name__ == "__main__":
 #     speak("At you service")

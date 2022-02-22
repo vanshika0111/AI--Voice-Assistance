@@ -9,8 +9,9 @@ def speak(audio):
     engine.runAndWait()
 
 def intro():
-    speak("Welcome back sir!")
-    speak("At you service.")
-    speak("How can I help you?")
+    speak("Welcome back!")
+    speak ("I am Jarvis.")
+    # speak("At you service.")
+    # speak("How can I help you?")
 
-intro()
+# intro()

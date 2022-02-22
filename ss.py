@@ -5,10 +5,12 @@
 
 import pyautogui
 
+# path to store the ss: D:\photosss\
+
 # definition for taking screenshot
 # def screenshot():
 #     img = pyautogui.screenshot()
-#     img.save("E:\photooooo\ss.png")
+#     img.save("D:\photosss")
 
 # code for running
 # if "screenshot" in query:

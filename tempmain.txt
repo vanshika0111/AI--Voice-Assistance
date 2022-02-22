@@ -1,17 +1,20 @@
 # ------------------- importing already made functions from other files -----------
-from greet_acc_to_time import *
-from intro import *
-from user_details import *
-from command import *
-from date_function import *
-from time_function import *
+from intro import intro
+from command import takeCommand
+# from command.py import takeCommand
+from time_function import time
+from date_function import date
 from wiki import *
+from mail import *
 from browse import *
 from window_operation import *
 from gaane import *
 from ss import *
 from status import *
 from jokessss import *
+from user_details import *
+import webbrowser
+from greet_acc_to_time import *
 
 # ------------------------------ function definitions -------------------------------
 def screenshot():
@@ -39,6 +42,9 @@ def cpu():
 def jokes():
     speak(pyjokes.get_joke())
 
+assistant = ("Jarvis")
+UserName = ("Vanshika")
+
 # --------------------------- importing module -------------------------------
 import pyttsx3
 
@@ -48,10 +54,6 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
-# --------------------------- global declaration -------------------------------
-assistant = "Jarvis"
-coder = "Vanshika"
-
 # --------------------------------- main function ----------------------------
 if __name__ == "__main__":
     greet()
@@ -60,18 +62,22 @@ if __name__ == "__main__":
     while True:
         query = takeCommand().lower()
         print(query)
-
-        if "who are you" in query:
-            speak(f"My friends call me {assistant}")
-
-        elif "who invented you" in query:
-            speak(f"I am coded by {coder}")
-
-        elif "date" in query:
+     
+        if "date" in query:
             date()
-        
+
         elif "time" in query:
             time()
+
+        elif "What is your name" in query:
+            speak("My friends call me")
+            speak(assistant)
+            print(f"My friends call me {assistant}")
+
+        elif "What is my name" in query:
+            speak("You just said your name is ")
+            speak(UserName)
+            print(f"My friends call me {assistant}")
 
         elif "wikipedia" in query:
             try:
@@ -82,6 +88,53 @@ if __name__ == "__main__":
             except Exception as e:
                 speak(e)
                 speak("No results found!")
+
+
+        elif "send mail" in query:
+            try:
+                speak("What is the reciever's mail address?")
+                to = "12002040701176@mbit.edu.in"  # reciever's mail
+                speak(f"Delievering mail to {to}")
+                speak("What should I mail?")
+                content = takeCommand()
+                send_mail(to,content)
+                speak(content)
+                speak("Email sent successfully.")
+            except Exception as e:
+                speak(e)
+                speak("Unable to send mail.")
+
+        elif "search" in query:
+            try:
+                query = query.replace("search", "")
+                query = query.replace("play", "")         
+                webbrowser.open(query)
+            except Exception as e:
+                speak(e)
+                speak("No result found!")
+
+        elif "chrome" in query:
+            try:
+                
+                speak("What should I search?")
+                chromepath = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe %s"
+                # wb.get(chromepath)
+                search = takeCommand().lower()
+                # search = takeCommand()
+                speak("Searching...")
+                # wb.get(chromepath).open_new_tab(search+ ".com")
+                webbrowser.open("google.com")
+            except Exception as e:
+                speak(e)
+                speak("No result found!")
+
+        # elif "chrome" or "google" in query:
+        #     try:
+        #         chromepath = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe %s"
+        #         webbrowser.open("google.com")
+        #     except Exception as e:
+        #         speak(e)
+        #         speak("No result found!")
         
         elif "logout" in query:
             os.system("shutdown - l")

@@ -21,4 +21,4 @@ def date():
     speak(month)
     speak(year)
 
-date()
+# date()

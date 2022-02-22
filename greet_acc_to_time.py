@@ -13,7 +13,7 @@ def speak(audio):
     engine.runAndWait()
 
 def greet():
-    speak("Welcome back sir!")
+    # speak("Welcome back sir!")
    
     hour = datetime.datetime.now().hour
 
@@ -26,6 +26,6 @@ def greet():
     else:
         speak("Good night")
 
-    speak("How can I help you?")
+    # speak("How can I help you?")
 
-greet()
+# greet()

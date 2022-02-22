@@ -15,9 +15,9 @@ def speak(audio):
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
     # .strftime will extract the current time from module
-    # speak(f"The time is {Time}")
-    speak("Current time is ")
-    speak(Time)
+    speak(f"The time is {Time}")
+    # speak("Current time is ")
+    # speak(Time)
     # speak(Time)
 
-time()
+# time()
