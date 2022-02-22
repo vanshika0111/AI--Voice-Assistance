@@ -10,7 +10,7 @@ def send_mail(to,content):
     server.ehlo()
     server.starttls()
     # to provide the login details of the user
-    server.login("inkedsolace73@gmail.com", "INKEDSOLACE73")
+    server.login("inkedsolace73@gmail.com", "pw")
     # to send the mail to reciever
     # server.sendmail("email@gmail.com", "reciever's email", content)
     server.sendmail("inkedsolace73@gmail.com", to, content)
